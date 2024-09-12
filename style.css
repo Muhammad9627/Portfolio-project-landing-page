@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+footer{
+	background-color: black;
+	color: #fff;	
+	text-align: center;
+}
+.head {
+	background-color: black;
+	color: #fff;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	width: 100%;
+	align-items: center;
+}
+.myname{
+	text-align: center;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+}
+.img{
+	padding: 10px;
+	margin-left: 35%;
+	
+}
+.myimg {
+	justify-content: center;
+	width: 30%;
+	height: 30%;
+	align-items: center;
+}
+@media (max-width:650px)
+{
+	.img{
+		margin-left: 0px;
+	}
+}
